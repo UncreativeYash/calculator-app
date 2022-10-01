@@ -1,16 +1,18 @@
 body {
-  background-color: #af9d5a;
+  background-color: #735b42;
 }
 
 .textview {
   display: inline-block;
   margin: 2px;
   width: 198px;
-  height: 29px;
+  height: 38px;
   font-size: 20px;
   font-weight: bold;
-  background-color: #23c4ed;
+  background-color: #5a4833;
   border: none;
+  border-radius: 20px 20px 10px 10px;
+  color: #fff;
 }
 
 .equalButton {
@@ -47,9 +49,10 @@ body {
 
 .button:hover,
 .equalButton:hover {
-  background-color: #1fcc4a;
-  border-top: 2px solid #383cc1;
-  border-right: 2px solid #383cc1;
+  background-color: #5a4833;
+  color: #fff;
+  border-top: 2px solid #f9f5f0;
+  border-right: 2px solid #f9f5f0;
   border-bottom: 2px solid #ae5700;
   border-left: 2px solid #ae5700;
 }
@@ -71,10 +74,12 @@ body {
 }
 
 .container {
-  background: #120e43;
+  background: #e8bd8f;
   background-size: cover;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  border-radius: 20px;
+  border: 1.5px solid #150f09;
 }
